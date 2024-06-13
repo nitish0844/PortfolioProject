@@ -9,7 +9,7 @@ import Contact from "../Components/Contact";
 import TopArrow from "../Components/TopArrow";
 import Footer from "../Components/Footer";
 import BottomArrowButton from "../Components/BottomArrowButton";
-import Resume from "../Components/Resume";
+// import Resume from "../Components/Resume";
 import Projects from "../Components/Projects";
 import Statistics from "../Components/Statistics";
 

@@ -7,7 +7,7 @@ const BottomArrowButton = ({ scrollToAbout }) => {
       onClick={scrollToAbout}
       className="bg-[#ffff] rounded-full p-3 transition duration-300 hover:bg-[#0F9095]"
     >
-      <FaChevronDown className="text-black text-2xl cursor-pointer" />
+      <FaChevronDown className="text-black text-3xl cursor-pointer" />
     </div>
   );
 };

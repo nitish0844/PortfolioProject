@@ -118,14 +118,23 @@ const Projects = () => {
       }
     };
 
+    const handleScroll = () => {
+      if (modalOpen) {
+        closeModal();
+      }
+    };
+
     if (modalOpen) {
       window.addEventListener("mousedown", handleClickOutside);
+      window.addEventListener("scroll", handleScroll);
     } else {
       window.removeEventListener("mousedown", handleClickOutside);
+      window.removeEventListener("scroll", handleScroll);
     }
 
     return () => {
       window.removeEventListener("mousedown", handleClickOutside);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, [modalOpen]);
 
@@ -164,7 +173,7 @@ const Projects = () => {
       </div>
 
       {modalOpen && selectedProject && (
-        <div className="fixed inset-0 flex flex-col justify-center items-center bg-black bg-opacity-75">
+        <div className="fixed inset-0 flex flex-col justify-center items-center bg-black bg-opacity-75 z-40">
           <div
             ref={modalRef}
             className="bg-white lg:w-[620px] w-[85%] lg:h-[100%] h-[90%] overflow-auto"
@@ -196,7 +205,7 @@ const Projects = () => {
             >
               Details
             </a>
-            <button onClick={closeModal} className="text-white pt-1 pl-5">
+            <button onClick={closeModal} className="text-white pt-2 pl-5">
               Close
             </button>
           </div>
