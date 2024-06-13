@@ -90,9 +90,9 @@ const MainScreen = () => {
       </div>
 
       {/* Resume */}
-      <div ref={resumeRef}>
+      {/* <div ref={resumeRef}>
         <Resume />
-      </div>
+      </div> */}
 
       {/* Projects */}
       <div ref={projectRef}>
