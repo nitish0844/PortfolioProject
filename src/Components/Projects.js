@@ -176,7 +176,7 @@ const Projects = () => {
         <div className="fixed inset-0 flex flex-col justify-center items-center bg-black bg-opacity-75 z-40">
           <div
             ref={modalRef}
-            className="bg-white lg:w-[620px] w-[85%] lg:h-[100%] h-[90%] overflow-auto"
+            className="bg-white lg:w-[620px] w-[85%] md:w-[70%] lg:h-[100%] h-[90%] overflow-auto"
           >
             <img
               src={selectedProject.modal_image}
@@ -196,7 +196,7 @@ const Projects = () => {
               </p>
             </div>
           </div>
-          <div className="bg-[#111111] lg:w-[620px] w-[85%] h-[60px] flex gap-4 font-bold tracking-widest">
+          <div className="bg-[#111111] lg:w-[620px] w-[85%] md:w-[70%] h-[60px] flex gap-4 font-bold tracking-widest">
             <a
               href={selectedProject.link}
               target="_blank"
