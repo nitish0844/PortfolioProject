@@ -8,6 +8,7 @@ const NavBar = ({
   scrollToContact,
   scrollToResume,
   scrollToProjects,
+  scrollToStatictics,
 }) => {
   return (
     <nav className="bg-transparent py-3">
@@ -44,7 +45,10 @@ const NavBar = ({
             >
               ACTIVITIES
             </a>
-            <a className="text-white text-xs font-bold hover:text-gray-300 cursor-pointer letter-spacing-wide">
+            <a
+              onClick={scrollToStatictics}
+              className="text-white text-xs font-bold hover:text-gray-300 cursor-pointer letter-spacing-wide"
+            >
               STATISTICS
             </a>
             <a

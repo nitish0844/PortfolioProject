@@ -19,6 +19,7 @@ const MainScreen = () => {
   const contactRef = useRef(null);
   const resumeRef = useRef(null);
   const projectRef = useRef(null);
+  const staticticRef = useRef(null);
 
   const scrollToAbout = () => {
     if (aboutRef.current) {
@@ -54,6 +55,11 @@ const MainScreen = () => {
     }
   };
 
+  const scrollToStatictics = () => {
+    if (staticticRef.current) {
+      staticticRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <div>
       <div
@@ -69,6 +75,7 @@ const MainScreen = () => {
           scrollToContact={scrollToContact}
           scrollToResume={scrollToResume}
           scrollToProjects={scrollToProjects}
+          scrollToStatictics={scrollToStatictics}
         />
         <HeaderData />
 
@@ -104,7 +111,7 @@ const MainScreen = () => {
       </div>
 
       {/* Statistics */}
-      <div>
+      <div ref={staticticRef}>
         <Statistics />
       </div>
 
