@@ -11,7 +11,7 @@ import Footer from "../Components/Footer";
 import BottomArrowButton from "../Components/BottomArrowButton";
 // import Resume from "../Components/Resume";
 import Projects from "../Components/Projects";
-import Statistics from "../Components/Statistics";
+// import Statistics from "../Components/Statistics";
 
 const MainScreen = () => {
   const aboutRef = useRef(null);
@@ -104,6 +104,7 @@ const MainScreen = () => {
         ref={activityRef}
         style={{
           backgroundImage: `url(${ActivityBgImage})`,
+      
         }}
         className="relative bg-cover bg-no-repeat bg-center"
       >
@@ -111,9 +112,9 @@ const MainScreen = () => {
       </div>
 
       {/* Statistics */}
-      <div ref={staticticRef}>
+      {/* <div ref={staticticRef}>
         <Statistics />
-      </div>
+      </div> */}
 
       <div className="relative">
         {/* Contact */}

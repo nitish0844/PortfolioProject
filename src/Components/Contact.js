@@ -26,7 +26,7 @@ const Contact = () => {
           </div>
 
           <div className="text-white md:text-base lg:text-base text-sm mt-3 w-32 text-center">
-            531 Lasuen Mall Stanford, CA 94305 US
+            6503 NW 165th AVE Portland Oregon 97229
           </div>
         </div>
 
@@ -37,7 +37,7 @@ const Contact = () => {
           </div>
 
           <div className="text-white md:text-base lg:text-base text-sm mt-3 text-center">
-            sunnybd97@gmail.com
+            akpixie867@gmail.com
           </div>
         </div>
 

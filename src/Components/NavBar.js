@@ -45,12 +45,12 @@ const NavBar = ({
             >
               ACTIVITIES
             </a>
-            <a
+            {/* <a
               onClick={scrollToStatictics}
               className="text-white text-xs font-bold hover:text-gray-300 cursor-pointer letter-spacing-wide"
             >
               STATISTICS
-            </a>
+            </a> */}
             <a
               onClick={scrollToContact}
               className="text-white text-xs font-bold hover:text-gray-300 cursor-pointer letter-spacing-wide"

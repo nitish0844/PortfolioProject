@@ -3,43 +3,21 @@ import React from "react";
 const Activity = () => {
   const activities = [
     {
-      title: "Founder/Co-President",
-      location: "Stanford Transhumanist Association",
-      date: "March 2018 - Present",
+      title: "PSU Center for Entrepreneurship",
+      location: "Workshop Volunteer",
+      date: "(9th-11th)",
       description:
-        "Organized executive board members & meeting. Designed STA discussion event posters. Took record of STA meeting & discussion. Recruited Stanford students into club members.",
+        "Facilitated the JavaScript tutorial workshops during STEM day events which aimed to introduce a group of 14-15 students to the fundamentals of JavaScript programming, which required about 2 hours in total per session.",
     },
     {
-      title: "Webmaster",
-      location: "Omicron Charter, Sigma Psi Zeta",
-      date: "January 2018 - Present",
-      link: "https://stanfordsyz.weebly.com/",
-      linkName: "Sigma Psi Zeta",
-      description:
-        "Ran homepage for the biggest Asian interest sorority in campus. Publicized the organization's activity, redesigned user interface that doubled website traffic.",
-    },
-    {
-      title: "Student Associate",
-      location: "Lane Library, Stanford Medical Center",
-      date: "March 2018 - Present",
-      description:
-        "Helped manage 10000+ books through returning, lending, and shelving books. Assisted library users at the front desk. Participated in library user statistics through Google Docs.",
-    },
-    {
-      title: "Community Director",
-      location: "Biology Interdisplinary Open Maker Environment, Stanford",
-      date: "March 2003",
-      link: "https://stanfordbiome.org/",
-      linkName: "BIOME",
-      description:
-        "Fostered bioengineering community on campus through designing club tshirt. Organized the first Stanford Bioengineering Hackathon supported by Genspace, Opentrons, FBI, and other biotech companies",
-    },
-    {
-      title: "Center player",
-      location: "Stanford Intramural Women Basketball Team",
-      date: "September 2016 - March 2017",
-      description:
-        "Participated in rigorous basketball training twice every week. Played in varsity basketball team during high school.",
+      title: "Women in Science Name of Blog",
+      location: "Contributor",
+      date: "(9th-11th)",
+      description: `
+ Dedicated my blog posts to amplifying the voices of women in science.
+Conducted interviews with accomplished female scientists and engaged in insightful discussions to write engaging narratives about their experiences.
+ Leveraged my writing to shed light on the experiences, achievements, and contributions of these women to their respective fields, inspiring readers to pursue careers in STEM.
+`,
     },
   ];
 
@@ -49,10 +27,6 @@ const Activity = () => {
       <div className="relative max-w-7xl mx-auto px-4 py-16">
         <div className="text-2xl font-semibold text-[#F06000] text-center">
           Activities
-        </div>
-
-        <div className="text-white text-center text-4xl font-bold mt-3">
-          My positions during undergraduate.
         </div>
 
         <div className="text-[#BFBFBF] text-center text-lg font-bold mt-5">

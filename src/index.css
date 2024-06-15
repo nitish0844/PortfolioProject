@@ -2,7 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  font-family: Pangram-Regular;
+}
+
 /* Add this to your global CSS file or within a <style> block in your component */
 .letter-spacing-wide {
   letter-spacing: 2.5px; /* Adjust the value as needed */
+}
+
+@font-face {
+  font-family: "Pangram-Bold";
+  src: url("./Fonts/Pangram-Bold.otf");
+}
+
+@font-face {
+  font-family: "Pangram-Regular";
+  src: url("./Fonts/Pangram-Regular.otf");
 }
