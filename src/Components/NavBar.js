@@ -33,12 +33,12 @@ const NavBar = ({
             >
               RESUME
             </a> */}
-            <a
+            {/* <a
               onClick={scrollToProjects}
               className="text-white text-xs font-bold hover:text-gray-300 cursor-pointer letter-spacing-wide"
             >
               PROJECTS
-            </a>
+            </a> */}
             <a
               onClick={scrollToActivity}
               className="text-white text-xs font-bold hover:text-gray-300 cursor-pointer letter-spacing-wide"

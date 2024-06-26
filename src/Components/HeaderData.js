@@ -27,7 +27,7 @@ const HeaderData = () => {
           <FaLinkedinIn className="text-white text-3xl hover:text-[#0F9095] transition duration-300" />
         </a>
         <a
-          href="https://github.com/your-profile"
+          href="https://github.com/anviverma-code"
           target="_blank"
           rel="noopener noreferrer"
         >

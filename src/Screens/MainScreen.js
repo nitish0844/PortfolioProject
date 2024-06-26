@@ -95,17 +95,14 @@ const MainScreen = () => {
       </div> */}
 
       {/* Projects */}
-      <div ref={projectRef}>
+      {/* <div ref={projectRef}>
         <Projects />
-      </div>
+      </div> */}
 
       {/* <Activity /> */}
       <div
         ref={activityRef}
-        style={{
-          backgroundImage: `url(${ActivityBgImage})`,
-      
-        }}
+        
         className="relative bg-cover bg-no-repeat bg-center"
       >
         <Activity />

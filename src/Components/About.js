@@ -19,13 +19,12 @@ const About = () => {
           className="lg:w-32 lg:h-32 md:w-28 md:h-28 w-24 h-24 rounded-full border-2 border-[#F06000] mt-5"
           style={{
             objectFit: "cover",
-
           }}
         />
         <div className="text-[#888888] lg:text-lg md:text-base w-96 text-sm md:mt-5 lg:mt-5 mt-0">
-          I have graduated from Jesuit High School, Class of 23025 GPA: 3.89
-          unweighted; 4.21 weighted Advanced Coursework: AP Calc AB, AP Comp
-          Sci, AP Cale BC, Linear Algebra, AP Lang, AP Physics C
+          I have graduated from Jesuit High School, Class of 23025. Advanced
+          Coursework: AP Calc AB, AP Comp Sci, AP Cale BC, Linear Algebra, AP
+          Lang, AP Physics C
         </div>
       </div>
 
